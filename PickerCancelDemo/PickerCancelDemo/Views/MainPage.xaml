@@ -6,7 +6,7 @@
              x:Class="PickerCancelDemo.Views.MainPage"
              Title="Picker demo">
   <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-        <Picker Title="Select item" WidthRequest="200">
+        <Picker x:Name="picker" Title="Select item" WidthRequest="200">
             <Picker.Items>
                 <x:String>Item 1</x:String>
                 <x:String>Item 2</x:String>
